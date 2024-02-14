@@ -133,3 +133,13 @@ img {
         width: 100%;
     }
 }
+
+@media (max-width: 480px) {
+    .lessons .row {
+        flex-wrap: wrap;
+        row-gap: 3rem;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+}
